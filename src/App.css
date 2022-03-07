@@ -1,0 +1,91 @@
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #4532b1 0%, #dfd9d9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+  padding-top: 20px;
+  user-select: none;
+}
+
+.react-calculator {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  background-color: #d46a12;
+  box-shadow: 0 19px 38px rgba(19, 19, 19, 0.24),
+    0 15px 12px rgba(19, 19, 19, 0.12);
+}
+
+button {
+  outline: none;
+  border: 0;
+  padding: 16px;
+  font-size: 20px;
+  line-height: 1;
+  background-color: transparent;
+  color: #050400;
+  transition: all 300ms;
+  border: 1px solid #0001;
+}
+
+button:hover {
+  color: #b111f0;
+  border: 1px solid #f1ed0722;
+}
+
+.result {
+  position: relative;
+  width: 320px;
+  height: 80px;
+  padding: 8px;
+  overflow: hidden;
+  background-color: rgba(54, 147, 190, 0.64);
+  font-size: 32px;
+  line-height: 2;
+  color: #142d4d;
+  text-align: right;
+  direction: rtl;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.functions button,
+.math-operations button {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  color: #000000;
+}
+
+.functions button:hover,
+.math-operations button:hover {
+  color: #fdf7f9;
+}
+
+.numbers {
+  width: 240px;
+  float: left;
+}
+
+.numbers button {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.numbers button:last-child {
+  width: 100%;
+}
+
+.functions {
+  float: left;
+  width: 240px;
+}
